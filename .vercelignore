@@ -1,0 +1,5 @@
+# Interne bestanden: wel in de repo, niet publiek op de site.
+*.md
+build_site.py
+deploy.sh
+sitemap-lastmod.json
