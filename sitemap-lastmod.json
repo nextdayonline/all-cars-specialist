@@ -1,82 +1,78 @@
 {
  "index": {
-  "hash": "ba5629430df638a2b28bb6754642cb99",
-  "lastmod": "2026-08-31"
+  "hash": "f8c106755ceb7914d8d2f1206938701c",
+  "lastmod": "2026-10-11"
  },
  "apk": {
-  "hash": "f87aebd021ca4e3f715856a186735106",
-  "lastmod": "2026-08-23"
+  "hash": "2ac8bdbd61bfd7210040c8107186ab83",
+  "lastmod": "2026-10-11"
  },
  "onderhoud": {
-  "hash": "ad2373633338056a8ad7cd5a22b1a0fb",
-  "lastmod": "2026-08-31"
+  "hash": "c0c78e368f65157291aec02a7ae4e7d6",
+  "lastmod": "2026-10-11"
  },
  "specialistisch": {
-  "hash": "b9cab208c901b2d31bac64fe4f587371",
-  "lastmod": "2026-08-23"
+  "hash": "809d8791e57443bc56ed46d0706b6ca1",
+  "lastmod": "2026-10-11"
  },
  "banden": {
-  "hash": "cc0d1e7bc70b3b2162ef2771e8096592",
-  "lastmod": "2026-08-23"
+  "hash": "50cd71452de2747565b319901cc12ef6",
+  "lastmod": "2026-10-11"
  },
  "airco": {
-  "hash": "77dfd317951e474ce0a0e344c205506f",
-  "lastmod": "2026-08-23"
+  "hash": "26e8a714a94dbfe25ab97c689f30d67a",
+  "lastmod": "2026-10-11"
  },
  "schadeherstel": {
-  "hash": "26bc817f83a6a1541b1228a2fff63322",
-  "lastmod": "2026-08-23"
- },
- "aankoopkeuring": {
-  "hash": "d2c3d44a9e2504742dcb13b80950e914",
-  "lastmod": "2026-08-23"
+  "hash": "4760bf7545a84b44f0c874c68a356ca6",
+  "lastmod": "2026-10-11"
  },
  "distributieriem-vervangen": {
-  "hash": "0cdf4ac5ba397ddb497a4406fb9ee332",
-  "lastmod": "2026-08-23"
+  "hash": "bae96d3162325a0585d084970ac6ea08",
+  "lastmod": "2026-10-11"
  },
  "versnellingsbakolie-verversen": {
-  "hash": "3718fdbeb1032bd16e271d1c194619c2",
-  "lastmod": "2026-08-23"
+  "hash": "60b59ea2e8ec49e9f3bbabe813a8765c",
+  "lastmod": "2026-10-11"
  },
  "foutmelding-uitlezen": {
-  "hash": "5ae51fd78846a1d6fe0513eeb344bf76",
-  "lastmod": "2026-08-23"
+  "hash": "eaefaf773443cec2bbe722074daa2d2c",
+  "lastmod": "2026-10-11"
  },
  "garage-beekbergen": {
-  "hash": "57f881a810d3a7b2b17d779c33ee5d67",
-  "lastmod": "2026-08-31"
+  "hash": "88c68a6972dd0cb58c8e91b4c01c472c",
+  "lastmod": "2026-10-11"
  },
  "garage-twello": {
-  "hash": "caab793af4ddc1e8864b4568dc57ccea",
-  "lastmod": "2026-08-31"
+  "hash": "0aed77bc3721728842d3f74ee98a9391",
+  "lastmod": "2026-10-11"
  },
  "garage-vaassen": {
-  "hash": "ba582b2c86589b56041ff75d95968dd0",
-  "lastmod": "2026-08-31"
+  "hash": "a8583805779317c40bc6fdd4f1977777",
+  "lastmod": "2026-10-11"
  },
  "garage-loenen": {
-  "hash": "4d082a684394781baf482faa47263bc0",
-  "lastmod": "2026-08-31"
+  "hash": "a8309eeecb0ae0ea2d7005e55822a8cb",
+  "lastmod": "2026-10-11"
  },
  "garage-klarenbeek": {
-  "hash": "e0c0c2e5643c4f7fbf839fdfd746bb0e",
-  "lastmod": "2026-08-31"
+  "hash": "43c5273a0ed26f82fb904dcef91f7e73",
+  "lastmod": "2026-10-11"
  },
  "over-ons": {
-  "hash": "7b81e794959f4d3462103d5f3f3cf4eb",
-  "lastmod": "2026-08-23"
+  "hash": "7ba55206e65f741bf2cfa6e83235d541",
+  "lastmod": "2026-10-11"
  },
  "contact": {
-  "hash": "dfb02cbbec6ee9671d0216acba317780",
-  "lastmod": "2026-08-31"
+  "hash": "cb16100c5ea2493707f4c64c3e17b922",
+  "lastmod": "2026-10-11"
  },
  "privacyverklaring": {
-  "hash": "7abc367560037c904153c3f4a732b717",
-  "lastmod": "2026-08-23"
+  "hash": "1803c3fd0c9cd3feb6b1704b8557b1ec",
+  "lastmod": "2026-10-11"
  },
  "algemene-voorwaarden": {
-  "hash": "459aaffbe87ee871a81369deea857982",
-  "lastmod": "2026-08-23"
+  "hash": "6dd4e7bc27cc2c5ce400914af277f7ea",
+  "lastmod": "2026-10-11"
  }
 }

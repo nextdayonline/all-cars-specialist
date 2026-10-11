@@ -231,7 +231,6 @@ FOOTER = '''</main>\n<footer class="footer">
           <li><a href="/banden">Banden &amp; wielen</a></li>
           <li><a href="/airco">Airco-service</a></li>
           <li><a href="/schadeherstel">Schadeherstel</a></li>
-          <li><a href="/aankoopkeuring">Aankoopkeuring</a></li>
           <li><a href="/distributieriem-vervangen">Distributieriem vervangen</a></li>
           <li><a href="/versnellingsbakolie-verversen">Versnellingsbakolie verversen</a></li>
           <li><a href="/foutmelding-uitlezen">Foutmelding uitlezen</a></li>
@@ -593,18 +592,6 @@ FAQS = {
         ("Hoelang duurt een reparatie?",
          "Dat hangt af van de omvang van de schade en de levertijd van onderdelen. Een kleine reparatie kan vaak snel; voor groter plaatwerk plannen we een vaste periode in. Je hoort de verwachte doorlooptijd bij de offerte."),
     ]),
-    "aankoopkeuring": ("Veelgestelde vragen", "Vragen over de aankoopkeuring", [
-        ("Wat kost een aankoopkeuring?",
-         "App of mail ons voor het tarief. Je weet vooraf wat de keuring kost, zodat er achteraf geen verrassingen zijn."),
-        ("Hoelang duurt een aankoopkeuring?",
-         "We geven je vooraf een inschatting van hoeveel tijd we nodig hebben. Bij twijfelpunten nemen we de tijd om door te meten en dat hoor je dan ook."),
-        ("Kan ik een auto van een particulier laten keuren?",
-         "Ja. Of je nu bij een particulier of een bedrijf koopt: maak met de verkoper een afspraak om de auto bij ons langs te brengen, dan keuren we hem."),
-        ("Wat krijg ik na de keuring?",
-         "Een heldere toelichting van de staat van de auto: wat is goed, wat is versleten en wat komt er op korte termijn aan. Met die informatie beslis jij zelf of je de auto koopt."),
-        ("Moet de auto naar jullie werkplaats komen?",
-         "Ja, we keuren in onze eigen werkplaats omdat we de auto dan op de brug en met uitleesapparatuur kunnen controleren. Stem even af wanneer het uitkomt."),
-    ]),
     "distributieriem-vervangen": ("Veelgestelde vragen", "Vragen over de distributieriem", [
         ("Wanneer moet de distributieriem vervangen worden?",
          "Dat hangt af van je merk en model. Veel fabrikanten schrijven vervanging voor tussen de 60.000 en 120.000 km, of na vier tot zes jaar, wat het eerst komt. Geef je kenteken door, dan zoeken we het exacte interval op."),
@@ -815,7 +802,6 @@ HOME_BODY = '''<!-- Hero -->
         <li>APK-keuring via een vast RDW-erkend partner-station - wij regelen de afspraak</li>
         <li>Banden, airco-service en schadeherstel</li>
         <li><a href="/versnellingsbakolie-verversen">Versnellingsbakolie verversen</a> - voor handbak, automaat, DSG en CVT</li>
-        <li><a href="/aankoopkeuring">Aankoopkeuring</a> - voordat je een tweedehands auto koopt</li>
         <li>Werkplaats met ruime parkeermogelijkheid; geen druk centrum-verkeer</li>
       </ul>
       <p style="margin-top: 12px;">Ook een vaste garage voor de omliggende dorpen:
@@ -1041,7 +1027,6 @@ APK_BODY = '''<section class="hero hero-compact">
         <p>Airco-werking (kort), ruitenwissers, claxon, gordels, kindzitbevestigingen.</p>
       </article>
     </div>
-    <p style="margin-top:24px;">Tweedehands auto op het oog? Voor je koopt zetten we hem op de brug: kijk bij de <a href="/aankoopkeuring">aankoopkeuring</a>.</p>
   </div>
 </section>
 
@@ -1194,7 +1179,7 @@ ONDERHOUD_BODY = '''<section class="hero hero-compact">
         <p>Aanvullende controle van slijtagepunten. Meerwerk altijd vooraf in overleg.</p>
       </div>
     </div>
-    <p style="margin-top:24px;">Schakelt je auto stroef of schokt de automaat? Kijk bij <a href="/versnellingsbakolie-verversen">versnellingsbakolie verversen</a>. En de <a href="/distributieriem-vervangen">distributieriem</a> vervang je beter op tijd dan te laat. Koop je een tweedehands auto? Laat hem eerst nakijken bij de <a href="/aankoopkeuring">aankoopkeuring</a>.</p>
+    <p style="margin-top:24px;">Schakelt je auto stroef of schokt de automaat? Kijk bij <a href="/versnellingsbakolie-verversen">versnellingsbakolie verversen</a>. En de <a href="/distributieriem-vervangen">distributieriem</a> vervang je beter op tijd dan te laat.</p>
   </div>
 </section>'''
 
@@ -1523,87 +1508,6 @@ SCHADE_BODY = '''<section class="hero hero-compact">
         <p>Wij herstellen, controleren en leveren je auto schoon en gecheckt op.</p>
       </div>
     </div>
-  </div>
-</section>'''
-
-# ---------- AANKOOPKEURING ----------
-AANKOOP_BODY = '''<section class="hero hero-compact">
-  <div class="container">
-    <div class="hero-grid">
-      <div>
-        <span class="hero-eyebrow">Aankoopkeuring</span>
-        <h1>Aankoopkeuring in <span class="accent">Apeldoorn.</span></h1>
-        <p class="lead">
-          Twijfel je over een tweedehands auto? Laat hem keuren voordat je koopt.
-          Wij kijken naar de technische staat, naar verborgen gebreken en naar wat er
-          op korte termijn aankomt, zodat je weet wat je in huis haalt.
-        </p>
-        <div class="hero-cta">
-          <a class="btn btn-primary btn-lg" href="/contact">Keuring inplannen</a>
-          <a class="btn btn-ghost btn-lg" href="https://wa.me/31633935720" target="_blank" rel="noopener noreferrer">WhatsApp ons</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight">
-  <div class="container">
-    <div class="section-header">
-      <span class="eyebrow">Wat we controleren</span>
-      <h2>Waar we naar kijken</h2>
-      <p>Een keuring vóór de koop voorkomt dat je een dure verrassing meeneemt.</p>
-    </div>
-    <div class="services-grid">
-      <article class="service-card">
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
-        <h3>Motor &amp; techniek</h3>
-        <p>Motorloop, vloeistoffen, lekkages en sporen van eerder uitstel van onderhoud.</p>
-      </article>
-      <article class="service-card">
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <h3>Onderstel &amp; remmen</h3>
-        <p>Remmen, schokdempers, ophanging en banden: wat is versleten, wat kan nog mee.</p>
-      </article>
-      <article class="service-card">
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14v14H5z"/><path d="M9 9h6v6H9z"/></svg></div>
-        <h3>Elektronica &amp; foutcodes</h3>
-        <p>We lezen de boordcomputer uit (OBD) en checken of er foutcodes in het geheugen staan.</p>
-      </article>
-      <article class="service-card">
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18l-2 12H5L3 7z"/><path d="M9 7V4h6v3"/></svg></div>
-        <h3>Carrosserie &amp; verleden</h3>
-        <p>Sporen van schade of roest en aanwijzingen voor eerder plaatwerk.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight section-alt">
-  <div class="container">
-    <div class="section-header">
-      <span class="eyebrow">Hoe het werkt</span>
-      <h2>Van advertentie tot helder oordeel</h2>
-    </div>
-    <div class="steps">
-      <div class="step">
-        <h3>Stuur de auto door</h3>
-        <p>App ons de advertentie of het kenteken. We laten weten waar we op letten.</p>
-      </div>
-      <div class="step">
-        <h3>Breng de auto langs</h3>
-        <p>Maak met de verkoper een afspraak om de auto bij ons in de werkplaats te brengen.</p>
-      </div>
-      <div class="step">
-        <h3>Wij keuren</h3>
-        <p>Op de brug en met uitleesapparatuur lopen we de auto methodisch na.</p>
-      </div>
-      <div class="step">
-        <h3>Je hoort het eerlijk</h3>
-        <p>Een helder overzicht van de staat en wat er aankomt. Daarna beslis jij.</p>
-      </div>
-    </div>
-    <p style="margin-top:24px;">Gaat het om een keuring in combinatie met een aankomende keuringsdatum? Bekijk ook onze <a href="/apk">APK-keuring</a>.</p>
   </div>
 </section>'''
 
@@ -2361,9 +2265,6 @@ PAGES = [
     ("schadeherstel",  "Schadeherstel Apeldoorn-Zuid - All-Cars Specialist",
                        "Schadeherstel in Apeldoorn-Zuid: krassen, deuken, bumper- en plaatwerk. Op verzoek een schadebegroting voor je verzekering.",
                        SCHADE_BODY, "home"),
-    ("aankoopkeuring", "Aankoopkeuring tweedehands auto in Apeldoorn - All-Cars Specialist",
-                       "Aankoopkeuring in Apeldoorn-Zuid voordat je een tweedehands auto koopt. Wij checken techniek, onderstel, elektronica en schadeverleden. Surinameweg.",
-                       AANKOOP_BODY, "apk"),
     ("distributieriem-vervangen", "Distributieriem vervangen in Apeldoorn - All-Cars Specialist",
                        "Distributieriem vervangen in Apeldoorn-Zuid volgens fabrieksvoorschrift, waterpomp op verzoek mee. Geef je kenteken door voor het juiste interval.",
                        DISTRI_BODY, "onderhoud"),
@@ -2411,7 +2312,6 @@ SERVICE_SCHEMAS = {
     "banden":         service_schema("Banden, balanceren en uitlijnen", "Bandenwissel, balanceren, uitlijnen en advies bij nieuwe banden.", "banden"),
     "airco":          service_schema("Airco-service",                "Airco vullen, controleren en op verzoek reinigen.", "airco"),
     "schadeherstel":  service_schema("Schadeherstel",                "Herstel van krassen, deuken, bumper- en plaatwerk; op verzoek schadebegroting.", "schadeherstel"),
-    "aankoopkeuring": service_schema("Aankoopkeuring",               "Aankoopkeuring van een tweedehands auto: techniek, onderstel, elektronica en schadeverleden.", "aankoopkeuring"),
     "distributieriem-vervangen": service_schema("Distributieriem vervangen", "Distributieriem vervangen volgens fabrieksvoorschrift, met waterpomp op verzoek.", "distributieriem-vervangen"),
     "versnellingsbakolie-verversen": service_schema("Versnellingsbakolie verversen", "Versnellingsbakolie verversen voor handbak, automaat, DSG en CVT, met olie op fabrieksspecificatie.", "versnellingsbakolie-verversen"),
     "foutmelding-uitlezen": service_schema("Foutmelding uitlezen",   "Foutcodes uitlezen via OBD en duiden welke storing er speelt, zonder onnodig vervangen.", "foutmelding-uitlezen"),
@@ -2419,7 +2319,7 @@ SERVICE_SCHEMAS = {
 PAGE_LABELS = {
     "apk": "APK-keuring", "onderhoud": "Onderhoud", "specialistisch": "Specialistisch onderhoud",
     "banden": "Banden", "airco": "Airco-service", "schadeherstel": "Schadeherstel",
-    "aankoopkeuring": "Aankoopkeuring", "distributieriem-vervangen": "Distributieriem vervangen",
+    "distributieriem-vervangen": "Distributieriem vervangen",
     "versnellingsbakolie-verversen": "Versnellingsbakolie verversen",
     "foutmelding-uitlezen": "Foutmelding uitlezen",
     "garage-beekbergen": "Garage Beekbergen", "garage-twello": "Garage Twello",
@@ -2473,6 +2373,7 @@ vercel_cfg = {
     "redirects": [
         {"source": "/diensten", "destination": "/onderhoud", "permanent": False},
         {"source": "/airco-vullen-in-apeldoorn", "destination": "/airco", "permanent": True},
+        {"source": "/aankoopkeuring", "destination": "/", "permanent": True},
         {"source": "/index.html", "destination": "/", "permanent": True},
         {"source": "/apk.html", "destination": "/apk", "permanent": True},
         {"source": "/onderhoud.html", "destination": "/onderhoud", "permanent": True},
@@ -2517,7 +2418,6 @@ PRIORITIES = {
     "banden": "0.8",
     "airco": "0.7",
     "schadeherstel": "0.8",
-    "aankoopkeuring": "0.85",
     "distributieriem-vervangen": "0.8",
     "versnellingsbakolie-verversen": "0.8",
     "foutmelding-uitlezen": "0.85",
@@ -2625,7 +2525,6 @@ llms = f'''# All-Cars Specialist B.V.
 - Banden, balanceren en uitlijnen: {BASE_URL}/banden
 - Airco-service: {BASE_URL}/airco
 - Schadeherstel: {BASE_URL}/schadeherstel
-- Aankoopkeuring tweedehands auto: {BASE_URL}/aankoopkeuring
 - Distributieriem vervangen: {BASE_URL}/distributieriem-vervangen
 - Versnellingsbakolie verversen (handbak, automaat, DSG, CVT): {BASE_URL}/versnellingsbakolie-verversen
 - Foutmelding uitlezen (diagnose): {BASE_URL}/foutmelding-uitlezen
