@@ -15,6 +15,12 @@
 - **Nog te doen**: blogartikelen (prio 4, bewust geparkeerd). Optioneel later: extra social-profielen aan `sameAs` toevoegen (bv. Facebook) als die er zijn.
 - Site telt nu 19 indexeerbare URL's (was 11).
 
+### Wijzigingen 11 oktober 2026 (op verzoek van Peter)
+
+- ⛔ **Aankoopkeuring vervallen**: de pagina `/aankoopkeuring` en alle verwijzingen ernaar zijn verwijderd (footer, homepage, APK- en onderhoudspagina, schema, sitemap, `llms.txt`). De oude URL verwijst met een 301 naar de homepage. Niet opnieuw opnemen zonder overleg; de aanbevelingen hierover verderop in dit document en in `seo-plan.md` zijn daarmee achterhaald.
+- 🔁 **Versnellingsbakolie verversen is nu versnellingsbak spoelen**: nieuwe URL `/versnellingsbak-spoelen`, met een 301 vanaf `/versnellingsbakolie-verversen`. Onderbouwing uit Google Keyword Planner (Nederland, per maand): "versnellingsbakolie verversen" 720, "automaat spoelen" 590, "automaat spoelen kosten" 590, "automaatbak spoelen" 480, "versnellingsbak spoelen" 320. De schrijfwijzen "versnellingsbakolie spoelen" en "versnellingsbak spoeling" hebben geen meetbaar volume, daarom is de paginatitel "Versnellingsbak spoelen". Verversen blijft op de pagina staan als uitleg en als aanpak voor de handbak.
+- De sitemap telt na deze wijziging 19 URL's.
+
 ---
 
 ## 1. Wat er nu staat (nulmeting van de gebouwde site)

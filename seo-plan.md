@@ -8,6 +8,8 @@
 - Concurrentie-analyse staat in `concurrentie-analyse.md`
 - Geen budget voor betaalde links of black-hat tactieken - alles vanuit content + lokale SEO
 
+**Bijgewerkt 11 oktober 2026**: de aankoopkeuring is vervallen en van de site gehaald; de punten hierover in dit plan zijn achterhaald. De pagina over versnellingsbakolie heet nu "Versnellingsbak spoelen" (`/versnellingsbak-spoelen`). Details en zoekvolumes staan in `content-gap-analyse.md` onder Status.
+
 ---
 
 ## 1. Doelgroep-zoektermen - prioriteitsmatrix
