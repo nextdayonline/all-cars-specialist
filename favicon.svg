@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="5" fill="#E11D2E"/>
+  <g transform="skewX(-12) translate(2 0)">
+    <text x="16" y="24" text-anchor="middle"
+          font-family="'Arial Black', Impact, sans-serif"
+          font-weight="900" font-style="italic"
+          font-size="22" fill="#fff">A</text>
+  </g>
+</svg>
