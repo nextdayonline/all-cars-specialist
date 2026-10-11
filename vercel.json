@@ -18,6 +18,11 @@
       "permanent": true
     },
     {
+      "source": "/versnellingsbakolie-verversen",
+      "destination": "/versnellingsbak-spoelen",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true

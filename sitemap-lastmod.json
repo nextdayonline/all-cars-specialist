@@ -1,78 +1,78 @@
 {
  "index": {
-  "hash": "f8c106755ceb7914d8d2f1206938701c",
+  "hash": "74d75c141cb7a8f91d3b6cd3581b221f",
   "lastmod": "2026-10-11"
  },
  "apk": {
-  "hash": "2ac8bdbd61bfd7210040c8107186ab83",
+  "hash": "5229be336341fd0cf17c9c5cbfda9f28",
   "lastmod": "2026-10-11"
  },
  "onderhoud": {
-  "hash": "c0c78e368f65157291aec02a7ae4e7d6",
+  "hash": "2dee2582ce30657ca58510727b73771d",
   "lastmod": "2026-10-11"
  },
  "specialistisch": {
-  "hash": "809d8791e57443bc56ed46d0706b6ca1",
+  "hash": "3391c1a238fa2e1ef209c40da1b0fe24",
   "lastmod": "2026-10-11"
  },
  "banden": {
-  "hash": "50cd71452de2747565b319901cc12ef6",
+  "hash": "b4a8e2546e5a09fc19be67dd24a31020",
   "lastmod": "2026-10-11"
  },
  "airco": {
-  "hash": "26e8a714a94dbfe25ab97c689f30d67a",
+  "hash": "806893980b0a133f6a0c421ef4276c98",
   "lastmod": "2026-10-11"
  },
  "schadeherstel": {
-  "hash": "4760bf7545a84b44f0c874c68a356ca6",
+  "hash": "7f6d26ff0211ab394c219eca73a1a703",
   "lastmod": "2026-10-11"
  },
  "distributieriem-vervangen": {
-  "hash": "bae96d3162325a0585d084970ac6ea08",
-  "lastmod": "2026-10-11"
- },
- "versnellingsbakolie-verversen": {
-  "hash": "60b59ea2e8ec49e9f3bbabe813a8765c",
+  "hash": "d0d90346b781418894e330ffc60d3dcb",
   "lastmod": "2026-10-11"
  },
  "foutmelding-uitlezen": {
-  "hash": "eaefaf773443cec2bbe722074daa2d2c",
+  "hash": "75fb150dc3158e35941635f6fa534ce9",
   "lastmod": "2026-10-11"
  },
  "garage-beekbergen": {
-  "hash": "88c68a6972dd0cb58c8e91b4c01c472c",
+  "hash": "fdd5f895f8db4c7454584654476f0c0c",
   "lastmod": "2026-10-11"
  },
  "garage-twello": {
-  "hash": "0aed77bc3721728842d3f74ee98a9391",
+  "hash": "5453567e961a1133b4348ce38108d834",
   "lastmod": "2026-10-11"
  },
  "garage-vaassen": {
-  "hash": "a8583805779317c40bc6fdd4f1977777",
+  "hash": "9703d59c6b5f89e2136aa4d1aab0e467",
   "lastmod": "2026-10-11"
  },
  "garage-loenen": {
-  "hash": "a8309eeecb0ae0ea2d7005e55822a8cb",
+  "hash": "e5b782a61339f2bc32fa09f5eb2426ee",
   "lastmod": "2026-10-11"
  },
  "garage-klarenbeek": {
-  "hash": "43c5273a0ed26f82fb904dcef91f7e73",
+  "hash": "085e4cba32ccc56eb98e0d0e61c456e7",
   "lastmod": "2026-10-11"
  },
  "over-ons": {
-  "hash": "7ba55206e65f741bf2cfa6e83235d541",
+  "hash": "8610e9b7e34e58a70c0f55032e3977f2",
   "lastmod": "2026-10-11"
  },
  "contact": {
-  "hash": "cb16100c5ea2493707f4c64c3e17b922",
+  "hash": "844a55249083f109309d7789ee257015",
   "lastmod": "2026-10-11"
  },
  "privacyverklaring": {
-  "hash": "1803c3fd0c9cd3feb6b1704b8557b1ec",
+  "hash": "1834c7b7b783eb52b3fcde37435dfb30",
   "lastmod": "2026-10-11"
  },
  "algemene-voorwaarden": {
-  "hash": "6dd4e7bc27cc2c5ce400914af277f7ea",
+  "hash": "484799d572f24f7e7a4c1455e53471bb",
+  "lastmod": "2026-10-11"
+ },
+ "versnellingsbak-spoelen": {
+  "hash": "284b1ed5252743b99cc3d698143d0578",
   "lastmod": "2026-10-11"
  }
 }

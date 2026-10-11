@@ -20,7 +20,7 @@
 - Airco-service: https://all-cars-specialist.nl/airco
 - Schadeherstel: https://all-cars-specialist.nl/schadeherstel
 - Distributieriem vervangen: https://all-cars-specialist.nl/distributieriem-vervangen
-- Versnellingsbakolie verversen (handbak, automaat, DSG, CVT): https://all-cars-specialist.nl/versnellingsbakolie-verversen
+- Versnellingsbak spoelen (automaat, DSG, CVT; handbak verversen): https://all-cars-specialist.nl/versnellingsbak-spoelen
 - Foutmelding uitlezen (diagnose): https://all-cars-specialist.nl/foutmelding-uitlezen
 
 ## Werkgebied

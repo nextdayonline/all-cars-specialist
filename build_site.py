@@ -232,7 +232,7 @@ FOOTER = '''</main>\n<footer class="footer">
           <li><a href="/airco">Airco-service</a></li>
           <li><a href="/schadeherstel">Schadeherstel</a></li>
           <li><a href="/distributieriem-vervangen">Distributieriem vervangen</a></li>
-          <li><a href="/versnellingsbakolie-verversen">Versnellingsbakolie verversen</a></li>
+          <li><a href="/versnellingsbak-spoelen">Versnellingsbak spoelen</a></li>
           <li><a href="/foutmelding-uitlezen">Foutmelding uitlezen</a></li>
         </ul>
       </div>
@@ -604,19 +604,23 @@ FAQS = {
         ("Wat kost een distributieriem vervangen?",
          "Dat verschilt sterk per auto en of de waterpomp meegaat. App of mail ons met je kenteken voor een prijsindicatie; je krijgt vooraf een heldere offerte."),
     ]),
-    "versnellingsbakolie-verversen": ("Veelgestelde vragen", "Vragen over versnellingsbakolie", [
-        ("Hoe vaak moet versnellingsbakolie ververst worden?",
-         "Bij een handgeschakelde bak is rond de 100.000 kilometer een goed moment, eerder bij trekhaakgebruik of veel korte ritten. Voor automaten adviseren veel fabrikanten elke 60.000 tot 80.000 kilometer, inclusief filter. Geef je kenteken door, dan zoeken we het voorschrift voor jouw bak op."),
-        ("Mijn automaat heeft 'lifetime' olie, moet die dan toch ververst worden?",
-         "'Lifetime' betekent in de praktijk: de levensduur die de fabrikant voor de bak rekent. De olie slijt intussen gewoon. Automaten met op tijd ververste olie schakelen soepeler en gaan langer mee. We adviseren per geval, op basis van kilometerstand en gebruik."),
+    "versnellingsbak-spoelen": ("Veelgestelde vragen", "Vragen over versnellingsbak spoelen", [
+        ("Wat is het verschil tussen versnellingsbak spoelen en olie verversen?",
+         "Bij verversen tappen we de olie af en vullen we de bak opnieuw. Bij een automaat blijft dan een groot deel van de oude olie achter in de koppelomvormer en de oliekoeler. Bij een spoeling wordt de bak doorgespoeld met nieuwe olie tot er schone olie uitkomt, zodat vrijwel alle olie vervangen is. Voor een handbak is verversen genoeg."),
+        ("Hoe vaak moet een versnellingsbak gespoeld worden?",
+         "Voor automaten adviseren veel fabrikanten elke 60.000 tot 80.000 kilometer nieuwe olie, inclusief filter. Bij een handgeschakelde bak is rond de 100.000 kilometer een goed moment om de olie te verversen, eerder bij trekhaakgebruik of veel korte ritten. Geef je kenteken door, dan zoeken we het voorschrift voor jouw bak op."),
+        ("Mijn automaat heeft 'lifetime' olie, moet die dan toch gespoeld worden?",
+         "'Lifetime' betekent in de praktijk: de levensduur die de fabrikant voor de bak rekent. De olie slijt intussen gewoon. Automaten die op tijd nieuwe olie krijgen, schakelen soepeler en gaan langer mee. We adviseren per geval, op basis van kilometerstand en gebruik."),
         ("Wat merk ik van versleten versnellingsbakolie?",
          "Stroef of krakend schakelen bij een koude motor, een automaat die schokt of te laat schakelt, of een brom die met de snelheid meeloopt. Ook donkere, verbrand ruikende olie op de peilstok van de automaat is een teken. Twijfel je? We beoordelen de olie voordat we iets vervangen."),
-        ("Wat kost versnellingsbakolie verversen?",
-         "Dat hangt af van het type bak en de hoeveelheid olie; een automaat vraagt meer olie en vaak een nieuw filter. App of mail ons met je kenteken, dan krijg je vooraf een heldere prijs."),
-        ("Kan verversen kwaad bij een automaat met hoge kilometerstand?",
-         "Verversen kan vrijwel altijd. Alleen agressief spoelen van een automaat die nooit onderhouden is, raden we soms af. We kijken eerst naar de staat van de olie en adviseren dan eerlijk wat zinvol is."),
+        ("Wat kost het spoelen van een automaat of versnellingsbak?",
+         "Dat hangt af van het type bak en de hoeveelheid olie. Bij spoelen gaat er meer olie doorheen dan bij verversen en vaak hoort er een nieuw filter bij. App of mail ons met je kenteken, dan krijg je vooraf een heldere prijs."),
+        ("Kan spoelen kwaad bij een automaat met hoge kilometerstand?",
+         "Meestal niet. Alleen bij een automaat die nooit onderhouden is, raden we spoelen soms af. We kijken eerst naar de staat van de olie en adviseren dan wat zinvol is."),
+        ("Kan elke versnellingsbak gespoeld worden?",
+         "Spoelen is vooral zinvol bij automaten met een koppelomvormer. Bij DSG- en CVT-bakken hangt het af van het type; soms schrijft de fabrikant verversen voor en dan houden we dat aan. Een handbak verversen we, omdat de olie daar bij het aftappen vrijwel helemaal uitloopt."),
         ("Verversen jullie ook differentieelolie?",
-         "Ja. Ook de olie van het differentieel en van de tussenbak bij vierwielaandrijving verversen we. Dat is goed te combineren met de versnellingsbakolie of met een beurt."),
+         "Ja. Ook de olie van het differentieel en van de tussenbak bij vierwielaandrijving verversen we. Dat is goed te combineren met het spoelen van de bak of met een beurt."),
     ]),
     "foutmelding-uitlezen": ("Veelgestelde vragen", "Vragen over foutmeldingen uitlezen", [
         ("Wat kost het uitlezen van een foutcode?",
@@ -801,7 +805,7 @@ HOME_BODY = '''<!-- Hero -->
         <li>Reparatie en diagnose, ook voor klachten die andere garages laten liggen</li>
         <li>APK-keuring via een vast RDW-erkend partner-station - wij regelen de afspraak</li>
         <li>Banden, airco-service en schadeherstel</li>
-        <li><a href="/versnellingsbakolie-verversen">Versnellingsbakolie verversen</a> - voor handbak, automaat, DSG en CVT</li>
+        <li><a href="/versnellingsbak-spoelen">Versnellingsbak spoelen</a> - voor automaat, DSG en CVT</li>
         <li>Werkplaats met ruime parkeermogelijkheid; geen druk centrum-verkeer</li>
       </ul>
       <p style="margin-top: 12px;">Ook een vaste garage voor de omliggende dorpen:
@@ -883,9 +887,9 @@ HOME_BODY = '''<!-- Hero -->
         <div class="icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M9 6h9M6 9v9"/></svg>
         </div>
-        <h3>Versnellingsbakolie</h3>
-        <p>Verversen voor handbak, automaat, DSG en CVT. Olie op fabrieksspecificatie.</p>
-        <a href="/versnellingsbakolie-verversen">Versnellingsbakolie verversen →</a>
+        <h3>Versnellingsbak spoelen</h3>
+        <p>Vrijwel alle oude olie eruit, nieuwe olie op fabrieksspecificatie erin. Voor automaat, DSG en CVT.</p>
+        <a href="/versnellingsbak-spoelen">Versnellingsbak spoelen →</a>
       </article>
 
       <article class="service-card">
@@ -1179,7 +1183,7 @@ ONDERHOUD_BODY = '''<section class="hero hero-compact">
         <p>Aanvullende controle van slijtagepunten. Meerwerk altijd vooraf in overleg.</p>
       </div>
     </div>
-    <p style="margin-top:24px;">Schakelt je auto stroef of schokt de automaat? Kijk bij <a href="/versnellingsbakolie-verversen">versnellingsbakolie verversen</a>. En de <a href="/distributieriem-vervangen">distributieriem</a> vervang je beter op tijd dan te laat.</p>
+    <p style="margin-top:24px;">Schakelt je auto stroef of schokt de automaat? Kijk bij <a href="/versnellingsbak-spoelen">versnellingsbak spoelen</a>. En de <a href="/distributieriem-vervangen">distributieriem</a> vervang je beter op tijd dan te laat.</p>
   </div>
 </section>'''
 
@@ -1219,7 +1223,7 @@ SPECIAL_BODY = '''<section class="hero hero-compact">
           <li>Storingen in elektronica en motormanagement</li>
           <li>Veiligheidssysteem-meldingen (ABS, airbag, ESP)</li>
           <li>Vloeistof-lekkages</li>
-          <li>Stroef schakelen of een schokkende automaat (vaak <a href="/versnellingsbakolie-verversen">de versnellingsbakolie</a>)</li>
+          <li>Stroef schakelen of een schokkende automaat (vaak <a href="/versnellingsbak-spoelen">de versnellingsbakolie</a>)</li>
           <li>Trillingen of geluiden zonder duidelijke oorzaak</li>
           <li>Onverklaarbaar verbruik of vermogensverlies</li>
         </ul>
@@ -1589,7 +1593,7 @@ DISTRI_BODY = '''<section class="hero hero-compact">
         <p>Na montage controleren we de werking en rijden we een rondje voor we afronden.</p>
       </div>
     </div>
-    <p style="margin-top:24px;">Distributieriem combineren met een beurt? Kijk bij <a href="/onderhoud">onderhoud en reparatie</a>. Ook de <a href="/versnellingsbakolie-verversen">versnellingsbakolie</a> is bij veel auto's rond dit kilometrage aan vervanging toe.</p>
+    <p style="margin-top:24px;">Distributieriem combineren met een beurt? Kijk bij <a href="/onderhoud">onderhoud en reparatie</a>. Ook de <a href="/versnellingsbak-spoelen">versnellingsbakolie</a> is bij veel auto's rond dit kilometrage aan vervanging toe.</p>
   </div>
 </section>'''
 
@@ -1598,12 +1602,13 @@ VERSNELLINGSBAK_BODY = '''<section class="hero hero-compact">
   <div class="container">
     <div class="hero-grid">
       <div>
-        <span class="hero-eyebrow">Versnellingsbakolie</span>
-        <h1>Versnellingsbakolie verversen in <span class="accent">Apeldoorn.</span></h1>
+        <span class="hero-eyebrow">Versnellingsbak spoelen</span>
+        <h1>Versnellingsbak spoelen in <span class="accent">Apeldoorn.</span></h1>
         <p class="lead">
-          Ook de olie in je versnellingsbak veroudert. Verse olie laat de bak weer licht
-          schakelen en voorkomt dure slijtage - bij een handbak &eacute;n een automaat.
-          Wij verversen met olie op fabrieksspecificatie, aan de Surinameweg in Apeldoorn-Zuid.
+          Ook de olie in je versnellingsbak veroudert. Bij een spoeling gaat vrijwel alle oude
+          olie eruit en komt er nieuwe olie op fabrieksspecificatie in. Verse olie laat de bak
+          weer licht schakelen en voorkomt dure slijtage. Wij spoelen aan de Surinameweg in
+          Apeldoorn-Zuid.
         </p>
         <div class="hero-cta">
           <a class="btn btn-primary btn-lg" href="/contact">Interval laten checken</a>
@@ -1617,13 +1622,13 @@ VERSNELLINGSBAK_BODY = '''<section class="hero hero-compact">
 <section class="section-tight">
   <div class="container container-narrow">
     <div class="section-header left">
-      <span class="eyebrow">Waarom verversen</span>
+      <span class="eyebrow">Waarom spoelen</span>
       <h2>Wat doet versnellingsbakolie en waarom slijt hij?</h2>
     </div>
     <p>Versnellingsbakolie smeert de tandwielen, lagers en synchromeshringen in de bak en voert
     warmte af. Door die warmte en door fijne metaaldeeltjes van het schakelen loopt de smering
     terug. Bij de meeste auto's is de olie na 60.000 tot 120.000 kilometer zo ver versleten dat
-    schakelen zwaarder gaat en de bak sneller slijt. Verversen kost een fractie van een
+    schakelen zwaarder gaat en de bak sneller slijt. Spoelen kost een fractie van een
     bakrevisie of een vervangende automaat.</p>
     <p style="margin-top:12px;">Herken je een van deze klachten? Dan is de olie een logische eerste check:</p>
     <ul class="checks-list" style="margin-top:12px;">
@@ -1665,14 +1670,18 @@ VERSNELLINGSBAK_BODY = '''<section class="hero hero-compact">
     <div class="two-col">
       <div>
         <span class="eyebrow">In eigen werkplaats</span>
-        <h2>Verversen op de juiste specificatie</h2>
+        <h2>Het verschil tussen spoelen en verversen</h2>
+        <p>Bij verversen tappen we de olie af en vullen we de bak opnieuw. Voor een handbak is
+        dat genoeg, want daar loopt bijna alle olie eruit. Bij een automaat blijft een groot deel
+        van de oude olie achter in de koppelomvormer, het kleppenhuis en de oliekoeler.</p>
+        <p>Bij spoelen wordt een spoelmachine op de bak aangesloten. Die spoelt de bak door met
+        nieuwe olie, tot er schone olie uitkomt. Zo is vrijwel alle olie in &eacute;&eacute;n keer
+        vervangen. Waar nodig vervangen we ook het filter en de carterpakking.</p>
         <p>Elke bak vraagt zijn eigen olie: verkeerde olie in een automaat of DSG geeft juist
         schakelproblemen. Wij hebben kwaliteitsolie op voorraad, onder meer van Xenum, en
-        kiezen per auto de specificatie die de fabrikant voorschrijft.</p>
-        <p>Bij automaten luistert ook de vulprocedure nauw: het oliepeil wordt op
-        een voorgeschreven temperatuur afgesteld. Wij werken volgens die procedure en vervangen
-        waar nodig het filter en de carterpakking.</p>
-        <p>Blijft een schakelklacht na het verversen bestaan? Dan meten we verder via ons
+        kiezen per auto de specificatie die de fabrikant voorschrijft. Het oliepeil stellen we
+        af op de voorgeschreven temperatuur.</p>
+        <p>Blijft een schakelklacht na het spoelen bestaan? Dan meten we verder via ons
         <a href="/specialistisch">specialistisch onderhoud en diagnose</a>. En combineren met een
         beurt kan altijd: kijk bij <a href="/onderhoud">onderhoud en reparatie</a>.</p>
       </div>
@@ -1692,15 +1701,15 @@ VERSNELLINGSBAK_BODY = '''<section class="hero hero-compact">
     <div class="steps">
       <div class="step">
         <h3>Kenteken doorgeven</h3>
-        <p>App of mail je kenteken. We zoeken op welke olie en welk interval jouw bak heeft.</p>
+        <p>App of mail je kenteken. We zoeken op welke olie jouw bak nodig heeft en of spoelen de juiste aanpak is.</p>
       </div>
       <div class="step">
         <h3>Offerte vooraf</h3>
-        <p>Je hoort vooraf wat het verversen kost, inclusief olie en eventueel filter.</p>
+        <p>Je hoort vooraf wat het spoelen kost, inclusief olie en eventueel filter.</p>
       </div>
       <div class="step">
-        <h3>Verversen op voorschrift</h3>
-        <p>Aftappen, filter en pakking waar nodig, vullen op de juiste temperatuur.</p>
+        <h3>Spoelen op voorschrift</h3>
+        <p>Oude olie eruit, bak doorspoelen met nieuwe olie, filter en pakking waar nodig, vullen op de juiste temperatuur.</p>
       </div>
       <div class="step">
         <h3>Proefrit &amp; controle</h3>
@@ -2166,7 +2175,7 @@ CONTACT_BODY = '''<section class="hero hero-compact">
               <option value="">Kies een dienst...</option>
               <option>APK-keuring</option>
               <option>Onderhoudsbeurt</option>
-              <option>Versnellingsbakolie verversen</option>
+              <option>Versnellingsbak spoelen</option>
               <option>Specialistisch onderhoud / diagnose</option>
               <option>Banden &amp; wielen</option>
               <option>Airco-service</option>
@@ -2268,8 +2277,8 @@ PAGES = [
     ("distributieriem-vervangen", "Distributieriem vervangen in Apeldoorn - All-Cars Specialist",
                        "Distributieriem vervangen in Apeldoorn-Zuid volgens fabrieksvoorschrift, waterpomp op verzoek mee. Geef je kenteken door voor het juiste interval.",
                        DISTRI_BODY, "onderhoud"),
-    ("versnellingsbakolie-verversen", "Versnellingsbakolie verversen in Apeldoorn - All-Cars Specialist",
-                       "Versnellingsbakolie verversen in Apeldoorn-Zuid: handbak, automaat, DSG en CVT. Olie op fabrieksspecificatie, prijs vooraf. Surinameweg, Apeldoorn.",
+    ("versnellingsbak-spoelen", "Versnellingsbak spoelen in Apeldoorn - All-Cars Specialist",
+                       "Versnellingsbak of automaat spoelen in Apeldoorn-Zuid. Vrijwel alle oude olie eruit, nieuwe olie op fabrieksspecificatie erin. Prijs vooraf. Surinameweg.",
                        VERSNELLINGSBAK_BODY, "onderhoud"),
     ("foutmelding-uitlezen", "Foutmelding uitlezen in Apeldoorn - All-Cars Specialist",
                        "Waarschuwingslampje of foutmelding op je dashboard? Wij lezen de foutcodes uit in Apeldoorn-Zuid en vertellen wat er aan de hand is. Surinameweg.",
@@ -2313,14 +2322,14 @@ SERVICE_SCHEMAS = {
     "airco":          service_schema("Airco-service",                "Airco vullen, controleren en op verzoek reinigen.", "airco"),
     "schadeherstel":  service_schema("Schadeherstel",                "Herstel van krassen, deuken, bumper- en plaatwerk; op verzoek schadebegroting.", "schadeherstel"),
     "distributieriem-vervangen": service_schema("Distributieriem vervangen", "Distributieriem vervangen volgens fabrieksvoorschrift, met waterpomp op verzoek.", "distributieriem-vervangen"),
-    "versnellingsbakolie-verversen": service_schema("Versnellingsbakolie verversen", "Versnellingsbakolie verversen voor handbak, automaat, DSG en CVT, met olie op fabrieksspecificatie.", "versnellingsbakolie-verversen"),
+    "versnellingsbak-spoelen": service_schema("Versnellingsbak spoelen", "Versnellingsbak spoelen voor automaat, DSG en CVT: vrijwel alle oude olie vervangen door nieuwe olie op fabrieksspecificatie. Handbak verversen.", "versnellingsbak-spoelen"),
     "foutmelding-uitlezen": service_schema("Foutmelding uitlezen",   "Foutcodes uitlezen via OBD en duiden welke storing er speelt, zonder onnodig vervangen.", "foutmelding-uitlezen"),
 }
 PAGE_LABELS = {
     "apk": "APK-keuring", "onderhoud": "Onderhoud", "specialistisch": "Specialistisch onderhoud",
     "banden": "Banden", "airco": "Airco-service", "schadeherstel": "Schadeherstel",
     "distributieriem-vervangen": "Distributieriem vervangen",
-    "versnellingsbakolie-verversen": "Versnellingsbakolie verversen",
+    "versnellingsbak-spoelen": "Versnellingsbak spoelen",
     "foutmelding-uitlezen": "Foutmelding uitlezen",
     "garage-beekbergen": "Garage Beekbergen", "garage-twello": "Garage Twello",
     "garage-vaassen": "Garage Vaassen", "garage-loenen": "Garage Loenen",
@@ -2374,6 +2383,7 @@ vercel_cfg = {
         {"source": "/diensten", "destination": "/onderhoud", "permanent": False},
         {"source": "/airco-vullen-in-apeldoorn", "destination": "/airco", "permanent": True},
         {"source": "/aankoopkeuring", "destination": "/", "permanent": True},
+        {"source": "/versnellingsbakolie-verversen", "destination": "/versnellingsbak-spoelen", "permanent": True},
         {"source": "/index.html", "destination": "/", "permanent": True},
         {"source": "/apk.html", "destination": "/apk", "permanent": True},
         {"source": "/onderhoud.html", "destination": "/onderhoud", "permanent": True},
@@ -2419,7 +2429,7 @@ PRIORITIES = {
     "airco": "0.7",
     "schadeherstel": "0.8",
     "distributieriem-vervangen": "0.8",
-    "versnellingsbakolie-verversen": "0.8",
+    "versnellingsbak-spoelen": "0.8",
     "foutmelding-uitlezen": "0.85",
     "garage-beekbergen": "0.7",
     "garage-twello": "0.7",
@@ -2526,7 +2536,7 @@ llms = f'''# All-Cars Specialist B.V.
 - Airco-service: {BASE_URL}/airco
 - Schadeherstel: {BASE_URL}/schadeherstel
 - Distributieriem vervangen: {BASE_URL}/distributieriem-vervangen
-- Versnellingsbakolie verversen (handbak, automaat, DSG, CVT): {BASE_URL}/versnellingsbakolie-verversen
+- Versnellingsbak spoelen (automaat, DSG, CVT; handbak verversen): {BASE_URL}/versnellingsbak-spoelen
 - Foutmelding uitlezen (diagnose): {BASE_URL}/foutmelding-uitlezen
 
 ## Werkgebied
